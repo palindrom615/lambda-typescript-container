@@ -7,7 +7,8 @@
   "scripts": {
     "build": "tsc",
     "watch": "tsc --watch",
-    "test": "jest"
+    "test": "jest",
+    "lint": "eslint --ext ts --ignore-path .gitignore ."
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,10 @@
     "@types/jest": "^27.0.1",
     "jest": "^27.0.6",
     "typescript": "^4.3.5"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.29.3",
+    "@typescript-eslint/parser": "^4.29.3",
+    "eslint": "^7.32.0"
   }
 }
