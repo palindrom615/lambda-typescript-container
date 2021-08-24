@@ -1,19 +1,19 @@
 {
-    "root": true,
-    "env": {
-        "node": true,
-        "es2020": true,
-        "jest": true
-    },
-    "extends": [
-        "eslint:recommended",
-        "plugin:@typescript-eslint/recommended"
-    ],
-    "parser": "@typescript-eslint/parser",
-    "parserOptions": {
-        "ecmaVersion": 2020,
-        "sourceType": "module"
-    },
-    "rules": {
-    }
+  "root": true,
+  "env": {
+    "node": true,
+    "es2020": true,
+    "jest": true
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:@typescript-eslint/recommended",
+    "prettier"
+  ],
+  "parser": "@typescript-eslint/parser",
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "rules": {}
 }
